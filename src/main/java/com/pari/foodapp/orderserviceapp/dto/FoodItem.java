@@ -9,8 +9,8 @@ import lombok.NoArgsConstructor;
 public class FoodItem {
 
     private int id;
-    private String itemName;
-    private String itemDescription;
+    private String name;
+    private String description;
     private boolean isVeg;
     private Long price;
     private Integer restaurantId;
